@@ -13,13 +13,17 @@ class: center, middle, white
 .right-large[
 
 ```yaml
+varsion: v2
 name: "Kyohei Mizumoto"
+
 role: "SRE"
 interests:
 - "kubernetes"
 - "public cloud"
 - "golang"
+
 twitter: "@kyohmizu"
+url: "https://kyohmizu.com/"
 ```
 
 ]
@@ -82,7 +86,7 @@ twitter: "@kyohmizu"
 
 .tmp[
 - Volumeの種類ごとにPluginが用意されている  
-<u><https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#volume-v1-core></u>
+.zoom2[<u><https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#volume-v1-core></u>]
 ]
 ]
 ---
@@ -170,7 +174,7 @@ class: center, middle
 ]
 
 .tmp[
-- Secretはメモリ上(tmpfs)に作成される
+- Secretはメモリ領域(tmpfs)に作成される
 ]
 
 .tmp[
